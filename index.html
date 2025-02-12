@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM's </title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <form action="" id="myForm">
+        <div>
+            <span id="sp1">
+            Name</span>
+            <input type="text" id="nameinput">
+        </div>
+
+        <div>
+            <span id="sp2">E-Mail </span>
+            <input type="email" id="emailinput">
+        </div>
+    
+        <div>
+            <span id="sp3">Phone Number</span>
+            <input type="number" id="phoneinput">
+            <button type="submit" id="submitbtn" onclick="addContact(event)">Submit</button>
+            <button id="savebtn">Save</button>
+            <button id="cancelbtn">Cancel</button>
+        </div>
+    </form>
+    
+    <marquee behavior="" direction="" bgcolor="black" height="1px"></marquee>
+
+   <!--  <div class="container">
+        <h2 id="sp4" style="text-decoration: underline;">LOGS</h2>
+        <button id="logid1">log1</button>
+        <input type="text" readonly >
+        <button id="logid2">log2</button>
+        <input type="text" readonly >
+
+    </div> -->
+    <table>
+        <thead id="tHead">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Mail</th>
+                <th>Phone</th>
+                <th class="actionTh">Edit</th>
+                <th class="actionTh">Delete</th>        
+            </tr>
+        </thead>
+        <tbody id="tBody">
+
+            <!-- <tr>
+                <td>Name</td>
+                <td>Mail</td>
+                <td>Phone</td>
+            </tr> -->
+        </tbody>
+        
+    </table>
+    
+<script src="floatlabel2.js"></script>
+<script src="indexdbUtils.js"></script>
+</body>
+</html>
